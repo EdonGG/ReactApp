@@ -1,0 +1,62 @@
+.card_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  .card_content {
+    width: 364px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    .head {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      width: 80%;
+      .type {
+        // background-color: #1bc11b;
+        padding: 10px 0px;
+        color: #fff;
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .person {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          font-size: 35px;
+          margin-right: 15px;
+          border: 1px solid #ccc;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .desc {
+      color: rgb(143, 143, 143);
+    }
+    .download {
+      background: transparent;
+      border: 1px solid rgb(2, 103, 255);
+      padding: 15px;
+      border-radius: 50px;
+      width: 50%;
+      color: rgb(2, 103, 255);
+      margin: 50px 0 0 0;
+      cursor: pointer;
+    }
+    .download:hover {
+      background-color: rgb(2, 103, 255);
+      color: white;
+    }
+  }
+}

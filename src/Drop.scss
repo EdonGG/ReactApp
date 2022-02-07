@@ -1,0 +1,35 @@
+.drop_wrapper {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  //   width: 75%;
+  margin-bottom: 40px;
+  text-align: left;
+  padding: 22px 50px 0 22px;
+  cursor: pointer;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    h1 {
+      font-size: 20px;
+      font-weight: 100;
+      margin-left: 0px;
+    }
+    .icon {
+      font-size: 26px;
+      color: #000;
+    }
+  }
+
+  .drop {
+    text-align: left;
+    border-top: 1px solid #ccc;
+    color: gray;
+    p {
+      font-size: 18px;
+      color: rgba(128, 128, 128, 0.911);
+      font-weight: 100;
+    }
+  }
+}
